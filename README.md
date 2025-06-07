@@ -1,6 +1,6 @@
 # RISCV 32-bit RTL CPU Design
 
-This repository contains the RTL design of a **32-bit single-cycle CPU**, implemented in Verilog and verified using Xilinx Vivado. The processor is inspired by MIPS/RISC-V architecture principles and supports a subset of R-type and I-type instructions.
+The project features a 32-bit MIPS CPU designed to execute instructions in a single clock cycle. It is built from scratch using Verilog. The processor is inspired by MIPS/RISC-V architecture principles and supports a subset of R-type and I-type instructions, consisting of core processor components and essential operations like instruction fetching, arithmetic computations, and memory access.
 
 # RISCV_32_RTL
 
