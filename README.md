@@ -32,3 +32,22 @@ The project features a 32-bit MIPS CPU designed to execute instructions in a sin
 
 - **Branching Logic**  
   Implements branch decision-making using ALU Zero flag, Sign Extension, Shift Unit, and Branch Adder.
+
+
+## Verification and Testing
+
+The design was tested and verified by hardcoding the following instruction opcodes in the Instruction memory and by supplying a global clock from testbench in Xilinx Vivado Simulator. Coverage focused on:
+
+- Correct execution of R-type and I-type instructions.
+- Accurate memory access and data routing.
+- Validation of branch and jump conditions.
+
+Test instructions include:
+- `add`
+- `sub`
+- `lw`
+- `sw`
+- Condition branching i.e. 'beq'
+
+  
+## Verification Demo 
