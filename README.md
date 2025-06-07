@@ -51,3 +51,5 @@ Test instructions include:
 
   
 ## Verification Demo 
+
+[![Thumbnail for video demo](https://github.com/muhammadfarhan720/RISCV_32_RTL/blob/main/images/thumbnail.jpg)](https://drive.google.com/file/d/1yRraBUmZkpqJb0yo4v_YvGIFItMjVyWn/view?usp=sharing)
