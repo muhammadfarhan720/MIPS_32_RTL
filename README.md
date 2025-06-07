@@ -47,7 +47,7 @@ Test instructions include:
 - `sub`
 - `lw`
 - `sw`
-- Condition branching i.e. 'beq'
+- Condition branching i.e. `beq`
 
   
 ## Verification Demo 
