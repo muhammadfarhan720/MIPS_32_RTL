@@ -55,3 +55,4 @@ Test instructions include:
 - **Click the following thumbnail to see verification demo of the RISCV CPU**  
 
 [![Thumbnail for video demo](https://github.com/muhammadfarhan720/RISCV_32_RTL/blob/main/images/thumbnail.jpg)](https://drive.google.com/file/d/1yRraBUmZkpqJb0yo4v_YvGIFItMjVyWn/view?usp=sharing)
+*Click the thumbnail to view the executions of R & I type Instructions and their verification*
