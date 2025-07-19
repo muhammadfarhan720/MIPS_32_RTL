@@ -15,17 +15,23 @@ input clock;
 output [31:0] ReadData;
 reg [31:0] ReadData;
 reg [31:0] RAM[0:63];
-integer i,j;
+integer i;
 initial
 begin
 for(i=0;i<64;i=i+1)
-for(j=0;j<32;j=j+1)
-RAM[i][j]<=0;
+RAM[i]=0;
 end
-always @(posedge clock)
+always @(posedge clock)begin
 if(MemWrite==1'b1)
-RAM[Address]=WriteData;
+RAM[Address]<=WriteData;
 else if(MemRead==1'b1)
-ReadData=RAM[Address];
+ReadData<=RAM[Address];
+
+else 
+begin
+RAM[Address]<=32'bx;
+ReadData<=32'bx;
+end
+end
 endmodule
 

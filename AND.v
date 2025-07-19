@@ -2,10 +2,11 @@
 module AND(e,f,g);
 
 input e,f; 
-output reg g; 
+output  g; 
 
-always @(*)
+
  
- g= e & f ;
+ assign g= e & f ;
+ 
 
 endmodule
