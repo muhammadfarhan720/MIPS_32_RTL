@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module RISC_V_top(
+module MIPS_top(
      globalclock,
      globalreset,   
 
