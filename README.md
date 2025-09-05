@@ -1,8 +1,8 @@
-# RISCV 32-bit RTL CPU Design
+# MIPS 32-bit RTL CPU Design
 
-The project features a 32-bit MIPS CPU designed to execute instructions in a single clock cycle. It is built from scratch using Verilog. The processor is inspired by MIPS/RISC-V architecture principles and supports a subset of R-type and I-type instructions, consisting of core processor components and essential operations like instruction fetching, arithmetic computations, and memory access.
+The project features a 32-bit MIPS CPU designed to execute instructions in a single clock cycle. It is built from scratch using Verilog. The processor is inspired by MIPS architecture principles and supports a subset of R-type and I-type instructions, consisting of core processor components and essential operations like instruction fetching, arithmetic computations, and memory access.
 
-# RISCV_32_RTL Architecture (Vivado Schematic)
+# MIPS_32_RTL Architecture (Vivado Schematic)
 
 ![CPU_synthesis_picture](https://github.com/user-attachments/assets/47b53ce0-1d1e-4cbc-953d-b07b1fb17403)
 
@@ -52,7 +52,7 @@ Test instructions include:
   
 ## Verification Demo 
 
-- **Click the following thumbnail to see verification demo of the RISCV CPU**  
+- **Click the following thumbnail to see verification demo of the MIPS-32 bit CPU**  
 
 [![Thumbnail for video demo](https://github.com/muhammadfarhan720/RISCV_32_RTL/blob/main/images/thumbnail.jpg)](https://drive.google.com/file/d/1yRraBUmZkpqJb0yo4v_YvGIFItMjVyWn/view?usp=sharing)
 *Click the thumbnail to view the executions of R & I type Instructions and their verification*
