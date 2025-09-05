@@ -16,7 +16,7 @@ wire _sel_branchornot;
 wire  _isZero;
 wire _Branch;
 wire [31:0] _sum_branchadder;
-MIPS_CPU cpu_tb (globalclock, globalreset, _mux_out_alusrc,_Instruction, _ReadData1,_ReadData2,_mux_out_regfiledest_5b,_ALUresult,_shift_out,_pcout,_sel_branchornot, _isZero,_Branch, _sum_branchadder );
+MIPS_top cpu_tb (globalclock, globalreset, _mux_out_alusrc,_Instruction, _ReadData1,_ReadData2,_mux_out_regfiledest_5b,_ALUresult,_shift_out,_pcout,_sel_branchornot, _isZero,_Branch, _sum_branchadder );
 
 initial 
 begin
